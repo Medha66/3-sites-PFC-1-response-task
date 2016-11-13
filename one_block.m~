@@ -50,10 +50,10 @@ for trial=1:number_trials
     
     %% Collect participant responses
     % Display first question
-    Screen('DrawLine', p.window, 255, p.width/2-200, p.height/2+110, ...
-        p.width/2-180, p.height/2+130, 4);
-    Screen('DrawLine', p.window, 255, p.width/2+200, p.height/2+110, ...
-        p.width/2+180, p.height/2+130, 4);
+    Screen('DrawLine', p.window, 255, p.width/2-120, p.height/2+110, ...
+        p.width/2-120, p.height/2+130, 4);
+    Screen('DrawLine', p.window, 255, p.width/2+120, p.height/2+110, ...
+        p.width/2+120, p.height/2+150, 4);
     DrawFormattedText(p.window, 'OR', 'center', p.height/2+100, 255);
     DrawFormattedText(p.window, ' Left          RESPONSE        Right ', 'center', p.height/2+200, 255);
     DrawFormattedText(p.window, '4 3 2 1       CONFIDENCE      1 2 3 4', 'center', p.height/2+300, 255);
